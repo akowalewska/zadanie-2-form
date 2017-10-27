@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie numer 2-formularz</title>
+</head>
+<body>
+    <form action="https://formspree.io/kowalewska.alexandra@gmail.com" method="post">
+        
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="Imie"><br>
+        
+        <label for="lastname">Nazwisko:</label>
+        <input type="text" id="lastname" name="Nazwisko"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="tel">Telefon:</label>
+        <input type="tel" id="tel" name="telefon"><br><br>
+        
+        <select name="city" id="city">
+            <option value="Krakow">Krakow</option>
+            <option value="Gdansk">Gdansk</option>
+            <option value="Warszawa">Warszawa</option>
+        </select><br><br>
+        
+        <input type="radio" name="gender" id="female">
+        <label for="female">Kobieta</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Mezczyzna</label><br><br>
+        
+        <input type="checkbox" name="permission" value="yes" id="permission">
+        <label for="permission">"Wyrazam zgode na przetwarzanie danych osobowych"</label><br><br>
+        
+        <textarea placeholder="Wiadomosc" name="wiadomosc"></textarea><br>
+        
+        <input type="submit" value="Wyslij wiadomosc"> 
+        
+    </form>
+</body>
+</html>
