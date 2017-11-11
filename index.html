@@ -3,39 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Zadanie numer 2-formularz</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <form action="https://formspree.io/kowalewska.alexandra@gmail.com" method="post">
         
         <label for="name">Imię:</label>
-        <input type="text" id="name" name="Imię"><br>
+        <input type="text" id="name" name="Imię">
         
         <label for="lastname">Nazwisko:</label>
-        <input type="text" id="lastname" name="Nazwisko"><br>
+        <input type="text" id="lastname" name="Nazwisko">
         
         <label for="email">Email:</label>
-        <input type="email" id="email" name="Email"><br>
+        <input type="email" id="email" name="Email">
         
         <label for="tel">Telefon:</label>
-        <input type="tel" id="tel" name="Telefon"><br><br>
+        <input type="tel" id="tel" name="Telefon">
         
         <select name="Miasto" id="city">
             <option value="Kraków">Kraków</option>
             <option value="Gdańsk">Gdańsk</option>
             <option value="Warszawa">Warszawa</option>
-        </select><br><br>
+        </select><br>
         
         <input type="radio" name="Płeć" id="female" value="Kobieta">
         <label for="female">Kobieta</label>
-        <input type="radio" name="gender" id="male" value="Mężczyzna">
-        <label for="male">Mężczyzna</label><br><br>
+        <input type="radio" name="Płeć" id="male" value="Mężczyzna">
+        <label for="male">Mężczyzna</label>
+        
+        <label for="Wiadomość">Wiadomość:</label>
+        <textarea name="Wiadomość"></textarea>
+        <br>
         
         <input type="checkbox" name="Zgoda" value="yes" id="permission">
-        <label for="permission">Wyrażam zgodę na przetwarzanie danych osobowych</label><br><br>
+        <label for="permission">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
         
-        <textarea placeholder="Wiadomość" name="Wiadomość"></textarea><br>
-        
-        <input type="submit" value="Wyślij wiadomość"> 
+        <input type="submit" value="SEND"> 
         
     </form>
 </body>
